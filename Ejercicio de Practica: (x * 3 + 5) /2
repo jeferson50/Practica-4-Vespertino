@@ -1,0 +1,11 @@
+# (x * 3 + 5) / 2
+
+def calcular_ecuacion(x):
+    return (x * 3 + 5) / 2
+
+# Solicitar un valor al usuario
+x = float(input("Ingresa un valor para x: "))
+resultado = calcular_ecuacion(x)
+
+# Mostrar el resultado con una cara sonriente
+print(f"El resultado de la ecuación para x = {x} es: {resultado} 😁")
